@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviation Club</title>
+  </head>
+
+  <body>
+    <div>
+      <img src="E:\Coding area\Task1\logo.png" alt="Aviation Club logo" />
+    </div>
+    <h2>Aviation Club</h2>
+    <form action="">
+      <div>
+        <div>
+          <label for="full name">Full Name (In English)</label>
+          <input
+            type="text"
+            name="full name"
+            id="full name"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+        <div>
+          <label for="phone number">Phone Number</label>
+          <input
+            type="number"
+            name="phone number"
+            id="phone number"
+            placeholder="Enter Phone Number"
+            min="01000000000"
+            max="01599999999"
+            required
+          />
+        </div>
+        <div>
+          <label for="Email">Email</label>
+          <input
+            type="text"
+            name="Email"
+            id="Email"
+            placeholder="Enter Email"
+            required
+          />
+        </div>
+        <div>
+          <label for="academic year">Academic Year</label>
+          <select name="academic year" id="academic year" required>
+            <option value="" selected disabled>Academic Year</option>
+            <option value="freshmen">Freshmen</option>
+            <option value="sophomore">Sophomore</option>
+            <option value="junior">Junior</option>
+            <option value="senior 1">Senior 1</option>
+            <option value="senior 2">Senior 2</option>
+          </select>
+        </div>
+        <div>
+          <label for="departement">Departement</label>
+          <select name="departement" id="departement" required>
+            <option value="" selected disabled>Departement</option>
+            <option value="electrical">Electrical</option>
+            <option value="mechanical">Mechanical</option>
+            <option value="architecture">Architecture</option>
+            <option value="civil">Civil</option>
+          </select>
+        </div>
+        <div>
+          <label for="first preference">First Preference</label>
+          <select name="first preference" id="first preference" required>
+            <option value="" selected disabled>First Preference</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Embedded">Embedded</option>
+            <option value="Arduino">Arduino</option>
+            <option value="Matlab">Matlab</option>
+          </select>
+        </div>
+        <div>
+          <label for="second preference">Second Preference</label>
+          <select name="second preference" id="second preference" required>
+            <option value="" selected disabled>Second Preference</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Embedded">Embedded</option>
+            <option value="Arduino">Arduino</option>
+            <option value="Matlab">Matlab</option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </body>
+</html>
